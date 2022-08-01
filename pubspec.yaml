@@ -1,0 +1,39 @@
+name: act_4_community_by_ocp
+description: A new Flutter project By Mr Zohair MITRE.
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  askai_animation_button: ^0.0.1+2
+  flutter_animated_button: ^2.0.0
+  google_fonts: ^3.0.1
+  new_im_animations: ^0.1.1
+  get: ^4.6.5
+  google_sign_in: ^5.4.0
+  firebase_core: ^1.20.0
+  firebase_auth: ^3.6.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/fonts/
